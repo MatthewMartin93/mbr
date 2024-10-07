@@ -57,5 +57,8 @@ int main()
         CloseHandle(drive);
         std::getchar();
         break;
+    default:
+         std::cout << "UHHHH THATS NOT AN OPTION DUDE";
+         break;
     }
 }
